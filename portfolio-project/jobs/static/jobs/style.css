@@ -1,0 +1,23 @@
+.emailText {
+    color: rgb(100, 100, 100);
+}
+
+
+.photo{
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    border: 5px solid rgb(100, 100, 100);
+}
+
+/* needed due to a bug when you have a gap beetwen border and image */
+section > img {
+    background-color: rgb(100, 100, 100);
+}   
+
+.job:hover {
+    transition-duration: 0.3s;
+    transform: translate(-3px, -6px);
+}
